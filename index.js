@@ -33,5 +33,5 @@ app.post('/profile', upload.single('avatar'), function (req, res, next) {
 
 // controller , middleware
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`Example app listening on port xyz ${port}`);
 });
